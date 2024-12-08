@@ -17,3 +17,11 @@ h3 {
     font-size: 18;
     text-align: left;
 }
+
+p {
+    font-size: 18;
+}
+
+#header {
+    text-align: center;
+}
