@@ -1,6 +1,6 @@
 * {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h1 {
@@ -20,6 +20,32 @@ h3 {
 
 p {
     font-size: 18;
+}
+
+img {
+    border: 5px, gray;
+    border-color: gray;
+    width: 250px;
+    height: 500px;
+}
+
+.left {
+    float: left;
+    margin: 10px;
+    width: 45%;
+    height: auto;
+    border: 5px, green, solid;
+    text-align: left;
+    clear: right;
+}
+
+.right {
+    float: right;
+    margin: 10px;
+    clear: left;
+    border: 5px, blue, solid;
+    width: 45%;
+    height: auto;
 }
 
 #header {
