@@ -37,6 +37,7 @@ img {
     border: 5px, green, solid;
     text-align: left;
     flex: auto;
+    clear: both;
 }
 
 .right {
@@ -45,7 +46,7 @@ img {
     border: 5px, blue, solid;
     width: 45%;
     height: auto;
-    clear: right;
+    clear: both;
 }
 
 #header {
