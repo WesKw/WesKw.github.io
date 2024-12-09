@@ -1,11 +1,12 @@
 * {
     margin-left: 5%;
     margin-right: 5%;
+    font-size: large;
 }
 
 h1 {
-    font-size: 48;
     text-align: center;
+    font-size: larger;
 }
 
 h2 {
@@ -27,6 +28,7 @@ img {
     border-color: gray;
     width: 250px;
     height: 500px;
+    vertical-align: middle;
 }
 
 .left {
@@ -34,21 +36,55 @@ img {
     margin: 10px;
     width: 45%;
     height: auto;
-    border: 5px, green, solid;
+    border: 2px, lightyellow, solid;
     text-align: left;
     flex: auto;
-    clear: both;
+    height: 100%;
+}
+
+.leftimg {
+    vertical-align: middle;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.rightimg {
+    vertical-align: middle;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .right {
     float: right;
     margin: 10px;
-    border: 5px, blue, solid;
+    border: 2px, lightblue, solid;
     width: 45%;
-    height: auto;
+    height: 100%;
+}
+
+.middle {
+    clear: both;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
     clear: both;
 }
 
 #header {
     text-align: center;
+}
+
+#conclusion {
+    text-align: left;
+}
+
+#design {
+    height: auto;
+    width: 50%;
+    vertical-align: middle;
+    margin-left: 25%;
 }

@@ -13,7 +13,8 @@
     <div>
         <h2>Background</h2>
         <h3>Problem Statement</h3>
-        <p>Like anyone else, Deaf adults often find themselves looking for a place to eat at many different points during the day. However, it’s hard for them to find
+        <p>
+            Like anyone else, Deaf adults often find themselves looking for a place to eat at many different points during the day. However, it’s hard for them to find
             restaurants that can accommodate their needs. Deaf adults may find it difficult to communicate with servers that speak too quickly. They also might find it 
             difficult to order at restaurants that don’t have a way to order online or through a kiosk. Some Deaf adults also find it frustrating when missing callouts 
             for a table that they are waiting for. Other Deaf adults want to foster a community that they can eat and converse with. Our solution, SignDine, proposes a 
@@ -21,16 +22,17 @@
             experience at restaurants that may not cater to all of their needs. Our solution aims to improve their dining experience by highlighting restaurants with sign 
             language proficient staff, visual menus, and other accessibility features. By providing accessible dining options, we aim to empower the deaf community and 
             encourage restaurants to be more inclusive. The app will not only enhance the social and dining experience for deaf individuals but also promote greater awareness 
-            and accessibility in the hospitality industry.</p>
-
+            and accessibility in the hospitality industry.
+        </p>
         <h2>Process</h2>
-        <h3>Requirements Gathering</h3>
+        <img id="design" src="images/designthinking_illustration_final2-02.png">
+        <h3>Requirements Gathering - Empathize and Define</h3>
         <p>
             For requirements gathering, we employed a semi-structured interview process to gather information from Deaf adults. In each interview, we asked questions about
             restaurant experiences as someone in the Deaf community, good vs bad experiences, what Deaf adults look for and avoid in restaurants, current tools (phone applications)
-            that they use when dining out, and their likes and dislikes about each tool.
+            that they use when dining out, and their likes and dislikes about each tool. From this, we developed our user, functional, environmental, and usability requirements. 
         </p>
-        <h3>Preliminary and Detailed Design</h3>
+        <h3>Preliminary and Detailed Design - Ideate, Prototype, Test</h3>
         <p>
             For the preliminary and detailed design phase, we created tasks and sketches for each task from the results of the requirements gathering. After revising and evaluating
             our sketches, we created a low-fidelity prototype using the best sketches, and used a cognitive walkthrough to evaluate the effectiveness.
@@ -47,22 +49,33 @@
             phones as little as possible when dining out. As such, we want our solution to have high learnability while also being simple to use. To create this simple
             to use interface, we used icon mappings to clearly map each part of the navigation bar to functionality.
         </p>
-        <div id="prototype1">
+        <hr>
+        <div class="container", style="background-color: rgb(245, 255, 228)">
             <div class="left">
                 <p>
-                    The home page features a search bar and an interactive map. When users search for a restaurant, the map dynamically pans and zooms to the restaurant’s location, highlighted by a marker. The restaurant’s name, rating, and the number of Deaf individuals dining there are displayed below the map.
+                    The home page features a search bar and an interactive map. When users search for a restaurant, the map dynamically
+                    pans and zooms to the restaurant’s location, highlighted by a marker. The restaurant’s name, rating, and the number
+                    of Deaf individuals dining there are displayed below the map.
                 </p>
                 <p>
-                    Tapping the restaurant card opens a modal pop-up with details such as age and occupation of the Deaf individuals present, promoting social inclusion. Users can also interact with the map directly, ensuring user control and flexibility.
+                    One of the most important user goals was to be able to foster a sense of community when going out to eat.
+                    So, tapping the group icon on the restaurant card opens a modal pop-up with details such as age and occupation 
+                    of the Deaf individuals present, promoting social inclusion. Users can also interact with the map directly,
+                    ensuring user control and flexibility.
+                </p>
+                <p>
+                    Our interview participants also expressed a desired to avoid spending too much time on their phone. So, we wanted our 
+                    application to be as easy to learn as possible. To do this, we used clear mappings from icons to functionality.
                 </p>
             </div>
             <div class="right">
-                <img src="images/map.png", class="figure1">
+                <img class="rightimg" src="images/map.png", class="figure1">
             </div>
         </div>
-        <div id="prototype2">
+        <hr>
+        <div class="container">
             <div class="left">
-                <img src="images/reviews.png">
+                <img class="leftimg" src="images/reviews.png">
             </div>
             <div class="right">
                 <p>
@@ -73,18 +86,46 @@
                 </p>
             </div>
         </div>
-        <div id="prototype3">
+        <hr>
+        <div class="container", style="background-color: rgb(245, 255, 228)">
             <div class="left">      
                 <p>
-                    The review page enables users to search for recently visited restaurants, view details such as the location, image, and the visit date, and then provide feedback. When a restaurant is selected, users are presented with a review form that includes a rating system for categories like “Staff Friendliness” and “Ease of Ordering.”The interactive star-based rating system, enhanced with hover animations, ensures natural mapping, offering a clear and intuitive input mechanism.
+                    The review page enables users to search for recently visited restaurants, view details such as the location, image, and the visit date, and then provide feedback. When a restaurant is selected, users are presented with a review form that includes a rating system for categories like “Staff Friendliness” and “Ease of Ordering.”The interactive star-based rating system, enhanced with hover animations, ensures natural mapping, offering a clear and intuitive input mechanism. This keeps the interface easy to use.
                 </p>
                 <p>
                     The comment box allows users to provide additional textual feedback, offering flexibility in expressing their opinions. After submission, the app displays a confirmation message and marks the restaurant as “Reviewed,” using recognition over recall to visually indicate completed tasks. Users can also edit previously submitted reviews, ensuring user freedom and the ability to refine their feedback.
-                </p>      
+                </p>
             </div>
             <div class="right">
-                <img src="images/microphone.png">
+                <img class="rightimg" src="images/microphone.png">
             </div>
+        </div>
+        
+        <div id="conclusion" class="middle">            
+            <hr/>
+            <h2>Future Work</h2>
+            <h3>Design Cycle</h3>
+            <p>
+                Ideally, we would do another iteration of the design process, using the functional prototype to gather feedback
+                from our userbase about the existing features of our prototype.
+            </p>
+            <h3>Restaurant Search</h3>
+            <p>
+                Currently the restaurant search uses a sample database to pull data from. If this application was going to be fully functional,
+                the restaurant search function would use a combination of pulling data from google as well as an internal database to store
+                reviews. We also wanted to link the search function directly to the review page and vice-versa, so that the user only needed to
+                search once, either on the review page or the search page.
+            </p>
+            <h3>Reviews</h3>
+            <p>
+                Each restaurant in the reviews section does not use the internal database to pull and store data from. It uses placeholder restaurants
+                instead of pulling from the database. In the future, all pages in the application will pull and store data using the internal database.
+            </p>
+            <h3>Microphone</h3>
+            <p>
+                The microphone features is the feature that is the least developed. In the future, we would want the microphone tool to be able
+                to detect voice input. 
+            </p>
         </div>
     </div>
 </html>
