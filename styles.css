@@ -36,16 +36,16 @@ img {
     height: auto;
     border: 5px, green, solid;
     text-align: left;
-    clear: right;
+    flex: auto;
 }
 
 .right {
     float: right;
     margin: 10px;
-    clear: left;
     border: 5px, blue, solid;
     width: 45%;
     height: auto;
+    clear: right;
 }
 
 #header {
