@@ -10,12 +10,12 @@ h1 {
 }
 
 h2 {
-    font-size: 42;
+    font-size: larger;
     text-align: center;
 }
 
 h3 {
-    font-size: 18;
+    font-size: larger;
     text-align: left;
 }
 
