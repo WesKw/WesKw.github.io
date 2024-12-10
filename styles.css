@@ -75,6 +75,8 @@ img {
 .leftimg, .rightimg {
     margin: auto;
     display: block;
+    width: 60%;
+    height: auto
 }
 
 #header {
