@@ -1,5 +1,10 @@
 # SignDine
 
+How to view the project website?
+1. Clone this repository.
+2. Locate index.html and open it using a browser.
+
+How to use the application?
 Git repository : https://github.com/WesKw/CS522_SignDine
 
 Follow the steps below in order to access the application.
