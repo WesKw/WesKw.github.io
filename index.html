@@ -6,8 +6,13 @@
 </head>
 <body>
     <header class="main-header">
-        <h1>SignDine</h1>
-        <h3 id="header">A dining experience solution for Deaf adults</h3>
+        <div class="header-content">
+            <img class="logo" src="images/applogo.png" alt="SignDine Logo">
+            <div>
+                <h1>SignDine</h1>
+                <h3 id="header">A dining experience solution for Deaf adults</h3>
+            </div>
+        </div>
         <h4 id="header">
             SignDine aims to improve the dining experience for Deaf adults and those in the Deaf community by fostering socialization, removing communication barriers, and allowing users to find restaurants that cater to their needs.
         </h4>
@@ -33,7 +38,7 @@
     </section>
     <section>
         <h2>Process</h2>
-        <img id="design" src="images/designthinking_illustration_final2-02.png" alt="Design Thinking Illustration">
+        <img id="design" class="design-image" src="images/designthinking_illustration_final2-02.png" alt="Design Thinking Illustration">
         <h3>Requirements Gathering - Empathize and Define</h3>
         <p>
             For requirements gathering, we employed a semi-structured interview process to gather information from Deaf adults. In each interview, we asked questions about
@@ -61,8 +66,13 @@
         </p>
     </section>
     <hr/>
-    <div class="container light-background">
-        <div class="left">
+    <div class="container light-background" style="background-color: #e3f7e7;">
+        <h3 class="container-title">Homepage</h3>
+        <div class="media-group">
+            <img class="media-item1" src="images/map.png" alt="Map Illustration">
+            <img class="media-item1" src="images/diningpeopleinfo.png" alt="Additional Map Illustration">
+        </div>
+        <div class="content">
             <p>
                 The home page features a search bar and an interactive map. When users search for a restaurant, the map dynamically
                     pans and zooms to the restaurant’s location, highlighted by a marker. The restaurant’s name, rating, and the number
@@ -79,16 +89,16 @@
                 application to be as easy to learn as possible. To do this, we used clear mappings from icons to functionality.
             </p>
         </div>
-        <div class="right">
-            <img class="rightimg" src="images/map.png" alt="Map Illustration">
-        </div>
     </div>
     <hr/>
-    <div class="container">
-        <div class="left">
-            <img class="leftimg" src="images/microphone.png" alt="Microphone Feature">
+    <div class="container" style="background-color: #e8f0fc;">
+        <h3 class="container-title">Microphone Page</h3>
+        <div class="media-group">
+            <img class="media-item" src="images/microphone.png" alt="Microphone Feature">
+            <img class="media-item" src="images/autoreminderinfo.png" alt="Additional Microphone Illustration">
+            <video class="media-item" src="images/microphoneworking.mp4" controls></video>
         </div>
-        <div class="right">
+        <div class="content">
             <p>
                 The microphone page enables users to listen for their order number or table callout in a restaurant. The “Start Listening” button activates a virtual microphone to detect audio cues for the entered order number. When listening, the status changes dynamically, providing real-time feedback via visual indicators such as a green status bar and an animated microphone icon, which creates a perception of active listening.
             </p>
@@ -98,8 +108,14 @@
         </div>
     </div>
     <hr/>
-    <div class="container light-background">
-        <div class="left">
+    <div class="container light-background" style="background-color: #fbe9e7;">
+        <h3 class="container-title">Review Page</h3>
+        <div class="media-group">
+            <img class="media-item" src="images/reviewhome.png" alt="Additional Reviews Illustration 1">
+            <img class="media-item" src="images/reviews.png" alt="Reviews Illustration">
+            <img class="media-item" src="images/reviewfeedback.png" alt="Additional Reviews Illustration 2">
+        </div>
+        <div class="content">
             <p>
                 The review page enables users to search for recently visited restaurants, view details such as the location, image, and the visit date, and then provide feedback. When a restaurant is selected, users are presented with a review form that includes a rating system for categories like “Staff Friendliness” and “Ease of Ordering.”The interactive star-based rating system, enhanced with hover animations, ensures natural mapping, offering a clear and intuitive input mechanism. This keeps the interface easy to use.
             </p>
@@ -107,8 +123,6 @@
                 The comment box allows users to provide additional textual feedback, offering flexibility in expressing their opinions. After submission, the app displays a confirmation message and marks the restaurant as “Reviewed,” using recognition over recall to visually indicate completed tasks. Users can also edit previously submitted reviews, ensuring user freedom and the ability to refine their feedback.
             </p>
         </div>
-        <div class="right">
-            <img class="rightimg" src="images/reviews.png" alt="Reviews Illustration">
         </div>
     </div>
     <footer id="conclusion" class="middle">
