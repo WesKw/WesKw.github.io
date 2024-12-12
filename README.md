@@ -4,6 +4,9 @@ How to view the project website?
 1. Clone this repository.
 2. Locate index.html and open it using a browser.
 
+OR:
+1. Open WesKw.github.io in your web browser.
+
 How to use the application?
 Git repository : https://github.com/WesKw/CS522_SignDine
 
